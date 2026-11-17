@@ -18,7 +18,7 @@ LSTM,clean+typos+lemma+slang,True,200,64,0.3,tanh,adam,cce,16,0.8052083333333333
 LSTM,clean+typos+lemma+slang,True,200,64,0.3,elu,adam,cce,16,0.7926053113553113,0.85125,0.85
 LSTM,clean+typos+lemma+slang,True,200,64,0.3,selu,adam,cce,14,0.6857448107448108,0.8134004884004884,0.8125
 LSTM,clean+typos+lemma+slang,True,200,64,0.3,tanh,adam,cce_smooth,30,0.7013366653426895,0.8340591486826426,0.8375
-LSTM,clean+typos+lemma+slang,True,200,64,0.3,tanh,adam,kld,16,0.8052083333333333,0.8534375000000001,0.85
+LSTM,clean+typos+lemma+slang,True,200,64,0.3,tanh,adam,focal,16,0.7392203832752613,0.8358449477351915,0.8375
 GRU,clean+typos+lemma+slang,False,128,64,0.3,relu,adam,cce,23,0.3702075702075702,0.6776007326007326,0.6625
 GRU,clean+typos+lemma+slang,True,128,64,0.3,relu,adam,cce,20,0.7062640291806959,0.8066618566618567,0.8125
 GRU,clean+typos+lemma+slang,True,64,64,0.3,relu,adam,cce,25,0.6852122414622415,0.7820598845598845,0.7875
@@ -38,4 +38,4 @@ GRU,clean+typos+lemma+slang,True,128,32,0.3,tanh,adam,cce,30,0.7609330456129237,
 GRU,clean+typos+lemma+slang,True,128,32,0.3,elu,adam,cce,28,0.6890372330921111,0.8219163763066202,0.825
 GRU,clean+typos+lemma+slang,True,128,32,0.3,selu,adam,cce,28,0.7398608293270998,0.8588784016230757,0.8625
 GRU,clean+typos+lemma+slang,True,128,32,0.3,tanh,adam,cce_smooth,28,0.7450309876807522,0.8681935263735381,0.875
-GRU,clean+typos+lemma+slang,True,128,32,0.3,tanh,adam,kld,30,0.7609330456129237,0.8562386165663604,0.8625
+GRU,clean+typos+lemma+slang,True,128,32,0.3,tanh,adam,focal,30,0.7079593603475718,0.8307126726029164,0.8375

@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "ipykernel>=7.4.0",
-    "lightgbm>=4.7.0",
+    "matplotlib>=3.11.2",
     "nltk>=3.10.4",
     "numpy>=2.4.6",
     "openpyxl>=3.1.5",
@@ -17,4 +17,5 @@ dependencies = [
     "pymorphy3>=2.0.6",
     "scikit-learn>=1.9.1",
     "setuptools<82",
+    "tensorflow>=2.21.0",
 ]

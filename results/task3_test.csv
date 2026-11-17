@@ -1,0 +1,3 @@
+model,preprocessing,bidirectional,emb_dim,units,dropout,activation,optimizer,loss,f1_macro,f1_weighted,accuracy
+LSTM,clean+typos+lemma+slang,True,200,64,0.3,tanh,adam,cce,0.7899659863945578,0.8504842615012107,0.847457627118644
+GRU,clean+typos+lemma+slang,True,128,32,0.3,tanh,adam,cce,0.8213804056340962,0.894230121736122,0.8983050847457628

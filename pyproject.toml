@@ -18,4 +18,9 @@ dependencies = [
     "scikit-learn>=1.9.1",
     "setuptools<82",
     "tensorflow>=2.21.0",
+    "lightgbm",
+    "torch",
+    "transformers",
+    "datasets",
+    "accelerate>=1.1.0",
 ]
